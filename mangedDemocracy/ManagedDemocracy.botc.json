@@ -1,0 +1,429 @@
+[
+    {
+        "id": "_meta",
+        "name": "Managed Democracy",
+        "author": "Keyordub",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/almanac.html"
+    },
+    {
+        "id": "manageddemocracy_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/manageddemocracy_managed_democracy.png",
+        "reminders": [
+            "Nominated",
+            "Nominated",
+            "Nominated",
+            "Nominated",
+            "Nominated",
+            "Nominated",
+            "Nominated",
+            "Nominated",
+            "Nominated"
+        ],
+        "name": "Managed Democracy",
+        "team": "fabled",
+        "ability": "Each day, if there are 5 or more players still alive and no one dies from execution, then a player who was nominated today will be arbitrarily executed.",
+        "flavor": "Managed Democracy offers true Freedom: Freedom from the burden of choice. "
+    },
+    {
+        "id": "warfront_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/warfront_managed_democracy.png",
+        "name": "Warfront",
+        "team": "fabled",
+        "ability": "Demons are accompanied by at least one Minion of the same Front.",
+        "flavor": "A three-front conflict, just like the First Galactic War. When will these aliens learn? "
+    },
+    {
+        "id": "beacon_managed_democracy",
+        "image": "https://drive.google.com/file/d/1qhiVdoRYlqRKoImMxfzXWsahUwuT7OlQ/view?usp=drive_link",
+        "firstNightReminder": "Wake the *KNOWS* player. :reminder: Show them the *THIS PLAYER IS* card and the Beacon token, and point to the Beacon.",
+        "reminders": [
+            "Knows"
+        ],
+        "name": "Beacon",
+        "team": "townsfolk",
+        "ability": "One player on your team starts knowing that you are a Beacon.",
+        "firstNight": 18
+    },
+    {
+        "id": "freeofthought_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/freeofthought_managed_democracy.png",
+        "firstNightReminder": "Show the Free-of-Thought the *THIS CHARACTER SELECTED YOU* card, and all the characters that tried to change their role or alignment this night.",
+        "otherNightReminder": "Show the Free-of-Thought the *THIS CHARACTER SELECTED YOU* card, and all the characters that tried to change their role or alignment this night.",
+        "reminders": [
+            "Attempted Change",
+            "Attempted Change",
+            "Attempted Change",
+            "Attempted Change"
+        ],
+        "name": "Free-of-Thought",
+        "team": "townsfolk",
+        "ability": "Each night, you learn how many characters attempted to change your role or alignment. Also, even when dead, you cannot be affected by madness and your character and alignment cannot be changed.",
+        "flavor": "Nobody\u2019s going to control your mind, soldier.",
+        "firstNight": 25,
+        "otherNight": 24
+    },
+    {
+        "id": "freedomyouth_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/freedomyouth_managed_democracy.png",
+        "otherNightReminder": "On the Freedom Youth's third night :Reminder: have them choose a character.",
+        "reminders": [
+            "Night 1",
+            "Night 2",
+            "Night 3"
+        ],
+        "name": "Freedom Youth",
+        "team": "townsfolk",
+        "ability": "On your third night, you may choose a new character to become. The Storyteller may prompt you to choose differently.",
+        "flavor": "The children, in an inspiring act of patriotic gratitude, have all signed MOD Form 11 \"Intent to Enlist.\". Once grown, they will join the ranks of SEAF and carry the torch of heroic valor that saved their lives.",
+        "otherNight": 2
+    },
+    {
+        "id": "helldiver_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/helldiver_managed_democracy.png",
+        "otherNightReminder": "The Helldiver might choose a character. :reminder: :reminder:",
+        "reminders": [
+            "Dead",
+            "Dead"
+        ],
+        "name": "Helldiver",
+        "team": "townsfolk",
+        "ability": "You are safe from the Demon. Once per game, at night*, choose a player: you both die.",
+        "flavor": "Prove to yourself that you have the strength, and the courage, to be Free.",
+        "otherNight": 4
+    },
+    {
+        "id": "interrogator_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/interrogator_managed_democracy.png",
+        "firstNightReminder": "The Interrogator might use their ability. :reminder:",
+        "otherNightReminder": "The Interrogator might use their ability. :reminder: If they used their ability, show the Interrogator the Character token of the Target.",
+        "reminders": [
+            "Target",
+            "Used Ability"
+        ],
+        "name": "Interrogator",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a player: if you are \u201cmad\u201d that they are evil during the next day, then learn their character that night. Otherwise, learn nothing.",
+        "flavor": "The Ministry of Truth is responsible for keeping all citizens well-informed and mentally equipped to withstand our enemies' vile propaganda.",
+        "firstNight": 20,
+        "otherNight": 15
+    },
+    {
+        "id": "loyaltyofficer_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/loyaltyofficer_managed_democracy.png",
+        "otherNightReminder": "Give a finger signal.",
+        "reminders": [
+            "Evil Voted",
+            "Evil Voted"
+        ],
+        "name": "Loyalty Officer",
+        "team": "townsfolk",
+        "ability": "Each night*, you learn the number of alive neighbors who voted and were evil yesterday.",
+        "flavor": "Our citizens depend on you for their safety.",
+        "otherNight": 16
+    },
+    {
+        "id": "martyr_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/martyr_managed_democracy.png",
+        "firstNightReminder": "The Martyr chooses a different player than last night. :reminder: If that player would die, wake the Martyr and show them the \"This Character chose you\" and their Martyr token.",
+        "otherNightReminder": "The Martyr chooses a different player than last night. :reminder: If that player would die, wake the Martyr and show them the \"This Character chose you\" and their Martyr token.",
+        "reminders": [
+            "Priority Citizen",
+            "Dead"
+        ],
+        "name": "Martyr",
+        "team": "townsfolk",
+        "ability": "Each night, choose a different player than the night before: If they would die tonight, then you die instead. You learn when this ability triggers.",
+        "flavor": "Super Earth will never forget the Helldivers we lost today, nor the incremental gains their sacrifice achieved. ",
+        "firstNight": 11,
+        "otherNight": 3
+    },
+    {
+        "id": "reeducator_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/reeducator_managed_democracy.png",
+        "otherNightReminder": "The Re-Educator chooses a player. Put the Re-Educator to sleep. If the Re-Educator chose a Good Outsider, then wake them. Show the *THIS CHARACTER SELECTED YOU* card and the Re-Educator token. Show the *YOU ARE* card and their new Townsfolk token. If the Re-Educator chose an evil player, the Re-Educator might die. :reminder:",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "Re-Educator",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player: if the chosen player is a good Outsider, they become a not-in-play Townsfolk and learn they were chosen. If the chosen player is evil, you might die.",
+        "flavor": "Don't worry, if you fail an objective, you will NOT be sent to a freedom camp. This is merely a dissident rumor.",
+        "otherNight": 20
+    },
+    {
+        "id": "researcher_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/researcher_managed_democracy.png",
+        "firstNightReminder": "Give a finger signal.",
+        "otherNightReminder": "Give a finger signal.",
+        "reminders": [
+            "Changed Roles",
+            "Changed Roles",
+            "Changed Roles",
+            "Changed Roles"
+        ],
+        "name": "Researcher",
+        "team": "townsfolk",
+        "ability": "Each night, you learn how many players changed characters this night.",
+        "flavor": "I've heard there's some kind of secret superweapon being worked on by our top scientists. Not the ones who made the Termicide, of course. They're all being interrogated for treason. Our other top scientists. ",
+        "firstNight": 26,
+        "otherNight": 25
+    },
+    {
+        "id": "shipmaster_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/shipmaster_managed_democracy.png",
+        "firstNightReminder": "Wake the player. Show them the *THESE CHARACTERS ARE NOT IN PLAY* card, and all Evil Characters associated with the not-in-play Front. If all fronts are in play, show them a thumbs down.",
+        "name": "Ship Master",
+        "team": "townsfolk",
+        "ability": "You start knowing a not-in-play Front. (Or that all Fronts are in play).",
+        "firstNight": 19
+    },
+    {
+        "id": "superpresident_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/superpresident_managed_democracy.png",
+        "firstNightReminder": "If the Super President died tonight and there are at least 4 players still alive, arbitrarily make a good player a new Super President. Wake the Super President, and recieve an announcement from them. Read the announcement aloud at dawn.",
+        "otherNightReminder": "If the Super President died tonight and there are at least 4 players still alive, arbitrarily make a good player a new Super President. Wake the Super President, and recieve an announcement from them. Read the announcement aloud at dawn.",
+        "name": "Super President",
+        "team": "townsfolk",
+        "ability": "Each night, make an announcement that the Storyteller will read at dawn. If you die or change characters and there are 4 or more players left, players learn this and a new good player arbitrarily becomes Super President.",
+        "flavor": "I wonder which candidate will be selected for me in this upcomin' election. ",
+        "firstNight": 23,
+        "otherNight": 19
+    },
+    {
+        "id": "thealgorithm_managed_democracy",
+        "image": [
+            "https://drive.google.com/file/d/1vMIjcOZErZC4MUIuBdJDZO1BdtFFHj8u/view?usp=drive_link",
+            "https://drive.google.com/file/d/1d8f3R1MCjDhKU2pYtCE1UGKnWheqn2d_/view?usp=drive_link"
+        ],
+        "firstNightReminder": "Show The Algoritm the *THIS PLAYER IS* card, the Super President token, and point to the Super President. The Algorithm chooses a player. :reminder:",
+        "otherNightReminder": "The Algorithm chooses a player. :reminder:",
+        "reminders": [
+            "Successor"
+        ],
+        "setup": true,
+        "name": "The Algorithm",
+        "team": "townsfolk",
+        "ability": "You start knowing who the Super President is. Each night, you may choose a player. If a new Super President would be created, they are chosen first, if possible. *[+Super President]*.",
+        "flavor": "I heard that some dissidents wanted us to select our own candidates instead of using the algorithm. Great idea. Everyone'll just become a political expert overnight. Treasonous morons. ",
+        "firstNight": 22,
+        "otherNight": 18
+    },
+    {
+        "id": "truthenforcer_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/truthenforcer_managed_democracy.png",
+        "firstNightReminder": "The Truth Enforcer may choose a player. :reminder: Wake the chosen player and show them the *THIS CHARACTER SELECTED YOU* token and the Truth Enforcer token.",
+        "otherNightReminder": "The Truth Enforcer may choose a player. :reminder: Wake the chosen player and show them the *THIS CHARACTER SELECTED YOU* token and the Truth Enforcer token.",
+        "reminders": [
+            "Mad"
+        ],
+        "name": "Truth Enforcer",
+        "team": "townsfolk",
+        "ability": "Each night, you may choose a player, and they learn they have been chosen. If a good player is chosen, then the next day they are \u201cmad\u201d that they are their character, or they might be executed.",
+        "flavor": "If there's one thing we love here on Super Earth, it's the truth. We\u2019ve even got a whole Ministry dedicated to the creation, fine-tuning, and wide distribution of it. ",
+        "firstNight": 21,
+        "otherNight": 17
+    },
+    {
+        "id": "cyborg_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/cyborg_managed_democracy.png",
+        "otherNightReminder": "If the Demon chose the Cyborg tonight, wake the Cyborg and show them the *YOU ARE* card, and the Evil handsign.",
+        "reminders": [
+            "Freed"
+        ],
+        "name": "Cyborg",
+        "team": "outsider",
+        "ability": "The first time you are chosen by a Demon, you join their team instead of their ability affecting you. You learn when this happens.",
+        "flavor": "In the First Galactic War, we cast the Illuminate from our galaxy, and secured the half-human Cyborgs safely in the mines of Cyberstan.",
+        "otherNight": 23
+    },
+    {
+        "id": "dissident_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/dissident_managed_democracy.png",
+        "name": "Dissident",
+        "team": "outsider",
+        "ability": "You might register as evil while voting. If anyone is publicly \u201cmad\u201d about you being a Dissident, you might be executed.",
+        "flavor": "I earned a few more Citizenship points the other day. All it took was reportin' some unpatriotic talk I heard in the barracks. Now there's one less dissident, and I get one more doctor's visit every year."
+    },
+    {
+        "id": "voteless_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/voteless_managed_democracy.png",
+        "otherNightReminder": "If there are three or more Voteless alive, mark an arbitrary number of them for death. :reminder:",
+        "reminders": [
+            "Voted",
+            "Dead"
+        ],
+        "name": "Voteless",
+        "team": "outsider",
+        "ability": "You may only vote once per game. If you vote more than once, you might die at night. If three or more Voteless are alive, some might die at night.",
+        "flavor": "They have been stripped of something even deeper than their humanity: their capacity to participate in the Democratic process.",
+        "otherNight": 22
+    },
+    {
+        "id": "weaklink_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/weaklink_managed_democracy.png",
+        "firstNightReminder": "If the Weak Link died yesterday or tonight, one or both of their neighbors might die tonight too. :reminder: :reminder:",
+        "otherNightReminder": "If the Weak Link died yesterday or tonight, one or both of their neighbors might die tonight too. :reminder: :reminder:",
+        "reminders": [
+            "Dead",
+            "Dead"
+        ],
+        "name": "Weak Link",
+        "team": "outsider",
+        "ability": "When you die, one or both of your neighbors might die during the night too.",
+        "flavor": "Their lives were in our hands. ",
+        "firstNight": 24,
+        "otherNight": 21
+    },
+    {
+        "id": "bilespewer_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/bilespewer_managed_democracy.png",
+        "firstNightReminder": "The Bile Spewer chooses a player. :reminder: If this is the second time a player is picked, wake them and show the *THIS CHARACTER PICKED YOU* card and the Bile Spewer token.",
+        "otherNightReminder": "The Bile Spewer chooses a player. :reminder: If this is the second time a player is picked, wake them and show the *THIS CHARACTER PICKED YOU* card and the Bile Spewer token.",
+        "reminders": [
+            "Bile",
+            "Bile",
+            "Bile",
+            "Bile",
+            "Thick Bile",
+            "Thick Bile",
+            "Thick Bile",
+            "Thick Bile",
+            "Dead"
+        ],
+        "name": "Bile Spewer",
+        "team": "minion",
+        "ability": "Each night, choose a player: The first time, they are poisoned until dusk. The second time, they are poisoned until dusk and learn they were chosen. The third time, they die. A player\u2019s count is reset when they die. *[Terminid Front]*",
+        "flavor": "The Bile Spewer\u2019s thorax is bloated with several metric tons of corrosive acid, which it vomits in revulsion upon encountering Democracy.",
+        "firstNight": 14,
+        "otherNight": 9
+    },
+    {
+        "id": "gloom_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/gloom_managed_democracy.png",
+        "firstNightReminder": "The Gloom chooses a player. :reminder:",
+        "otherNightReminder": "The Gloom chooses a player. :reminder:",
+        "reminders": [
+            "Enshrouded"
+        ],
+        "name": "Gloom",
+        "team": "minion",
+        "ability": "Each night, choose a player: They might register as evil & as a Minion or Demon, until dusk. *[Terminid Front]*",
+        "flavor": "The Gloom has altered the very air of the worlds caught in its haze. Once-familiar worlds are now foreign lands, nesting grounds for skittering new monstrosities. ",
+        "firstNight": 17,
+        "otherNight": 12
+    },
+    {
+        "id": "detector_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/detector_managed_democracy.png",
+        "otherNightReminder": "Point to a player.",
+        "name": "Detector",
+        "team": "minion",
+        "ability": "Each night*, learn which player the Storyteller believes is the greatest threat to your team. *[Automaton Front]*",
+        "flavor": "What Automatons we have faced thus far were but a component of their grand apparatus.",
+        "otherNight": 13
+    },
+    {
+        "id": "jammer_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/jammer_managed_democracy.png",
+        "firstNightReminder": "The Jammer chooses a player. :reminder:",
+        "otherNightReminder": "The Jammer chooses a player. :reminder:",
+        "reminders": [
+            "Jammed"
+        ],
+        "name": "Jammer",
+        "team": "minion",
+        "ability": "Each night, choose a player: If they nominate the next day, it fails even if it receives enough votes. All players learn when a vote fails due to this ability. This ability only works when there are 5 or more players alive. *[Automaton Front]*",
+        "flavor": "The Automatons have proved a greater threat to Democracy than anticipated.",
+        "firstNight": 16,
+        "otherNight": 11
+    },
+    {
+        "id": "fleshmob_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/fleshmob_managed_democracy.png",
+        "otherNightReminder": "If a Good Outsider was executed yesterday, resurrect the Fleshmob.",
+        "reminders": [
+            "Resurrected"
+        ],
+        "name": "Fleshmob",
+        "team": "minion",
+        "ability": "You might register as an Outsider or a Voteless. If you are dead and town executes a good Outsider, you can choose to ressurect during the next night. [Illuminate Front]",
+        "flavor": "It seems the Illuminate wish to transform our citizens' minds and bodies. But are these monstrosities the end of their gruesome experimentation... or merely the beginning? ",
+        "otherNight": 14
+    },
+    {
+        "id": "overseer_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/overseer_managed_democracy.png",
+        "firstNightReminder": "Give a finger signal. Wake the Demon and show the *THIS CHARACTER CHOSE YOU* card, the Overseer token, and a finger signal.",
+        "otherNightReminder": "Give a finger signal. Wake the Demon and show the *THIS CHARACTER CHOSE YOU* card, the Overseer token, and a finger signal.",
+        "setup": true,
+        "name": "Overseer",
+        "team": "minion",
+        "ability": "At night, you and the Demon learn how many Outsiders are alive. *[+1 Outsider. Illuminate Front]*",
+        "flavor": "They bend the Voteless to their will, using them as expendable shields in a craven attempt to conserve their own numbers.",
+        "firstNight": 15,
+        "otherNight": 10
+    },
+    {
+        "id": "biletitan_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/biletitan_managed_democracy.png",
+        "otherNightReminder": "The Bile Titan chooses a player. :reminder: :reminder: :reminder:",
+        "reminders": [
+            "Dead",
+            "Poisoned",
+            "Poisoned"
+        ],
+        "name": "Bile Titan",
+        "team": "demon",
+        "ability": "Each night*, choose a player: They die, and their Townsfolk neighbors are poisoned till dawn. *[Terminid Front]*",
+        "flavor": "The ravenous Terminids are guided solely by an instinctive urge to reproduce, spread, and destroy Democracy. ",
+        "otherNight": 7
+    },
+    {
+        "id": "predator_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/predator_managed_democracy.png",
+        "firstNightReminder": "Show the Predator the *YOU ARE* card, the Predator token, and their Townsfolk ability token.",
+        "otherNightReminder": "The Predator chooses a player. :reminder:",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "Predator",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. You also have a not-in-play good character's ability. *[Terminid Front]*",
+        "flavor": "A Gloom-enhanced strain of Terminids has been reported on this planet. SEAF patrols have been lured into ambushes, and picked off by unseen assailants.",
+        "firstNight": 13,
+        "otherNight": 8
+    },
+    {
+        "id": "fabricator_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/fabricator_managed_democracy.png",
+        "otherNightReminder": "The Fabricator chooses a player. :reminder: Wake the Minion, show them the *THIS CHARACTER SELECTED YOU* card and the Fabricator token. Show them the *USE YOUR ABILITY?* card. They may choose a different Minion of the same Front.",
+        "reminders": [
+            "Dead",
+            "Used Swap",
+            "Used Swap",
+            "Used Swap",
+            "Used Swap"
+        ],
+        "name": "Fabricator",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Each Minon may, once per game, at night, choose to become a different Minion of their current Front. *[Automaton Front]*",
+        "flavor": "Is there some yet-concealed architect of the Automatons? Or did they emerge of their own accord, from the primordial ooze of machine logic and binary code? ",
+        "otherNight": 6
+    },
+    {
+        "id": "illusionist_managed_democracy",
+        "image": "https:\/\/www.bloodstar.xyz\/p\/Keyordub\/Managed_Democracy\/illusionist_managed_democracy.png",
+        "firstNightReminder": "One Townsfolk player is poisoned. :reminder:",
+        "otherNightReminder": "The Illusionist chooses a player. Put the Illusionist to sleep. Wake the chosen player. Ressurect them. :reminder: Show them the *YOU ARE* card, and the Voteless token. ",
+        "reminders": [
+            "Poisoned",
+            "Resurrected"
+        ],
+        "name": "Illusionist",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they become an alive Voteless. One Townsfolk player is poisoned. [Illuminate Front]",
+        "flavor": "What the Illuminate are planning, none can say. ",
+        "firstNight": 12,
+        "otherNight": 5
+    }
+]
