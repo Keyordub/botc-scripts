@@ -7,11 +7,11 @@
   },
   {
     "id": "manageddemocracy_managed_democracy_v110",
-    "image": [ "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/managedDemocracy.png", "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/managedDemocracy_flipped.png" ],
+    "image": "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/managedDemocracy_flipped.png",
     "reminders": [ "Nominated", "Nominated", "Nominated", "Nominated", "Nominated", "Nominated", "Nominated", "Nominated", "Nominated" ],
     "name": "Managed Democracy",
-    "team": "fabled",
-    "ability": "Each day, if there are 5 or more players still alive and no one dies from execution, then a player who was nominated today will be arbitrarily executed.",
+    "team": "loric",
+    "ability": "Each day, if there are 5 or more players still alive and no one dies from execution, then a player who was nominated today will be arbitrarily executed. [Loric]",
     "flavor": "Managed Democracy offers true Freedom: Freedom from the burden of choice. "
   },
   {
@@ -24,10 +24,10 @@
   },
   {
     "id": "friendlyfire_managed_democracy_v110",
-    "image": [ "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/friendlyFire.png", "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/friendlyFire_flipped.png" ],
+    "image": "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/friendlyFire_flipped.png",
     "name": "Friendly Fire",
-    "team": "fabled",
-    "ability": "Once per game, when a player dies, their aligned neighbor will die too.",
+    "team": "loric",
+    "ability": "Once per game, when a player dies, their aligned neighbor will die too. [Loric]",
     "flavor": "Remember, kids: Friendly Fire isn't."
   },
   {
@@ -40,9 +40,16 @@
     "name": "The Algorithm",
     "team": "traveller",
     "ability": "Each night, choose a non-traveller character: The next day, before nominations for execution occur, a special nomination cycle will be held to choose a non-traveller player. A good player, if elected, becomes the chosen character at dusk.",
+    "special": [
+      {
+        "name": "pointing",
+        "type": "ability",
+        "time": "day"
+      }
+    ],
     "flavor": "I heard that some dissidents wanted us to select our own candidates instead of using the algorithm. Great idea. Everyone'll just become a political expert overnight. Treasonous morons. ",
-    "firstNight": 22,
-    "otherNight": 18
+    "firstNight": 47,
+    "otherNight": 43
   },
   {
     "id": "hellbomb_managed_democracy_v110",
@@ -60,7 +67,7 @@
     "name": "Beacon",
     "team": "townsfolk",
     "ability": "Each night, choose a player. If you nominate an evil player during the next day, then the folloing night your previously chosen player learns that they are evil.",
-    "firstNight": 18
+    "firstNight": 43
   },
   {
     "id": "freeofthought_managed_democracy_v110",
@@ -72,8 +79,8 @@
     "team": "townsfolk",
     "ability": "Each night, you learn how many characters attempted to change your role or alignment. Also, even when dead, you cannot be affected by madness and your character and alignment cannot be changed.",
     "flavor": "Nobody’s going to control your mind, soldier.",
-    "firstNight": 24,
-    "otherNight": 22
+    "firstNight": 49,
+    "otherNight": 47
   },
   {
     "id": "freedomyouth_managed_democracy_v110",
@@ -84,7 +91,7 @@
     "team": "townsfolk",
     "ability": "On your third night, you may choose a new character to become. The Storyteller may prompt you to choose differently.",
     "flavor": "The children, in an inspiring act of patriotic gratitude, have all signed MOD Form 11 \"Intent to Enlist.\". Once grown, they will join the ranks of SEAF and carry the torch of heroic valor that saved their lives.",
-    "otherNight": 2
+    "otherNight": 27
   },
   {
     "id": "helldiver_managed_democracy_v110",
@@ -95,7 +102,7 @@
     "team": "townsfolk",
     "ability": "Once per game, during the day before nominations, publicly choose a player. If one of you votes less than the other today, they die at night.",
     "flavor": "Prove to yourself that you have the strength, and the courage, to be Free.",
-    "otherNight": 4
+    "otherNight": 29
   },
   {
     "id": "interrogator_managed_democracy_v110",
@@ -107,8 +114,8 @@
     "team": "townsfolk",
     "ability": "Once per game, at night, choose a player: if you are “mad” that they are evil during the next day, then learn their character that night. Otherwise, learn nothing.",
     "flavor": "The Ministry of Truth is responsible for keeping all citizens well-informed and mentally equipped to withstand our enemies' vile propaganda.",
-    "firstNight": 20,
-    "otherNight": 15
+    "firstNight": 45,
+    "otherNight": 40
   },
   {
     "id": "democracyofficer_managed_democracy_v110",
@@ -119,7 +126,7 @@
     "team": "townsfolk",
     "ability": "Each night*, learn the number of players who, during the previous days nominations, were your alive neighbor, were evil, and voted.",
     "flavor": "Our citizens depend on you for their safety.",
-    "otherNight": 16
+    "otherNight": 41
   },
   {
     "id": "martyr_managed_democracy_v110",
@@ -131,8 +138,8 @@
     "team": "townsfolk",
     "ability": "Each night, choose a player. If they would die tonight, then you die instead.",
     "flavor": "Super Earth will never forget the Helldivers we lost today, nor the incremental gains their sacrifice achieved. ",
-    "firstNight": 11,
-    "otherNight": 3
+    "firstNight": 36,
+    "otherNight": 28
   },
   {
     "id": "reeducator_managed_democracy_v110",
@@ -143,7 +150,7 @@
     "team": "townsfolk",
     "ability": "Each night*, choose a player: if the chosen player is a good Outsider, they become a not-in-play Townsfolk and learn they were chosen. If the chosen player is evil, you might die.",
     "flavor": "Don't worry, if you fail an objective, you will NOT be sent to a freedom camp. This is merely a dissident rumor.",
-    "otherNight": 19
+    "otherNight": 44
   },
   {
     "id": "researcher_managed_democracy_v110",
@@ -155,8 +162,8 @@
     "team": "townsfolk",
     "ability": "Each night, you learn how many players changed characters this night.",
     "flavor": "I've heard there's some kind of secret superweapon being worked on by our top scientists. Not the ones who made the Termicide, of course. They're all being interrogated for treason. Our other top scientists. ",
-    "firstNight": 25,
-    "otherNight": 23
+    "firstNight": 50,
+    "otherNight": 48
   },
   {
     "id": "shipmaster_managed_democracy_v110",
@@ -165,7 +172,7 @@
     "name": "Ship Master",
     "team": "townsfolk",
     "ability": "You start knowing a not-in-play Front. (Or that all Fronts are in play).",
-    "firstNight": 19
+    "firstNight": 44
   },
   {
     "id": "highcommand_managed_democracy_v110",
@@ -185,8 +192,8 @@
     "team": "townsfolk",
     "ability": "Each night, you may choose a player, and they learn they have been chosen. If a good player is chosen, then the next day they are “mad” that they are their character, or they might be executed.",
     "flavor": "If there's one thing we love here on Super Earth, it's the truth. We’ve even got a whole Ministry dedicated to the creation, fine-tuning, and wide distribution of it. ",
-    "firstNight": 21,
-    "otherNight": 17
+    "firstNight": 46,
+    "otherNight": 42
   },
   {
     "id": "cyborg_managed_democracy_v110",
@@ -198,8 +205,8 @@
     "team": "outsider",
     "ability": "When your neighbor is chosen by a Demon, you join the Demon's team until you die. You learn when this happens.",
     "flavor": "In the First Galactic War, we cast the Illuminate from our galaxy, and secured the half-human Cyborgs safely in the mines of Cyberstan.",
-    "firstNight": 23,
-    "otherNight": 21
+    "firstNight": 48,
+    "otherNight": 46
   },
   {
     "id": "dissident_managed_democracy_v110",
@@ -218,7 +225,7 @@
     "team": "outsider",
     "ability": "You may only vote once per day. If you vote more than once, you might die at night. If only three or less non-Voteless characters remain alive, you die at dawn.",
     "flavor": "They have been stripped of something even deeper than their humanity: their capacity to participate in the Democratic process.",
-    "otherNight": 20
+    "otherNight": 45
   },
   {
     "id": "collateral_managed_democracy_v110",
@@ -237,10 +244,10 @@
     "reminders": [ "Bile", "Bile", "Bile", "Bile", "Thick Bile", "Thick Bile", "Thick Bile", "Thick Bile", "Dead" ],
     "name": "Bile Spewer",
     "team": "minion",
-    "ability": "Each night, choose a player: The first time, they are poisoned until dusk. The second time, they are poisoned until dusk and learn they were chosen. The third time, they die. A player’s count is reset when they die. *[Terminid Front]*",
+    "ability": "Each night, choose a player: The first time, they are poisoned until dusk. The second time, they are poisoned until dusk and learn they were chosen. The third time, they die. A player’s count is reset when they die. [Terminid Front]",
     "flavor": "The Bile Spewer’s thorax is bloated with several metric tons of corrosive acid, which it vomits in revulsion upon encountering Democracy.",
-    "firstNight": 14,
-    "otherNight": 9
+    "firstNight": 39,
+    "otherNight": 34
   },
   {
     "id": "gloom_managed_democracy_v110",
@@ -250,10 +257,10 @@
     "reminders": [ "Enshrouded" ],
     "name": "Gloom",
     "team": "minion",
-    "ability": "Each night, choose a player: They might register as evil & as a Minion or Demon, until dusk. *[Terminid Front]*",
+    "ability": "Each night, choose a player: They might register as evil & as a Minion or Demon, until dusk. [Terminid Front]",
     "flavor": "The Gloom has altered the very air of the worlds caught in its haze. Once-familiar worlds are now foreign lands, nesting grounds for skittering new monstrosities. ",
-    "firstNight": 17,
-    "otherNight": 12
+    "firstNight": 42,
+    "otherNight": 37
   },
   {
     "id": "detector_managed_democracy_v110",
@@ -263,7 +270,7 @@
     "team": "minion",
     "ability": "Each night*, learn a player who the Storyteller believes you should watch carefully. [Automaton Front]",
     "flavor": "What Automatons we have faced thus far were but a component of their grand apparatus.",
-    "otherNight": 13
+    "otherNight": 38
   },
   {
     "id": "jammer_managed_democracy_v110",
@@ -275,8 +282,8 @@
     "team": "minion",
     "ability": "Each night, choose a player: If they nominate the next day, it fails even if it receives enough votes. All players learn when a vote fails due to this ability. This ability only works when there are 5 or more players alive. [Automaton Front]",
     "flavor": "The Automatons have proved a greater threat to Democracy than anticipated.",
-    "firstNight": 16,
-    "otherNight": 11
+    "firstNight": 41,
+    "otherNight": 36
   },
   {
     "id": "fleshmob_managed_democracy_v110",
@@ -287,7 +294,7 @@
     "team": "minion",
     "ability": "You might register as an Outsider and a Voteless. If you are dead and town executes a good Outsider, you can choose to ressurect during that night. [Illuminate Front]",
     "flavor": "It seems the Illuminate wish to transform our citizens' minds and bodies. But are these monstrosities the end of their gruesome experimentation... or merely the beginning? ",
-    "otherNight": 14
+    "otherNight": 39
   },
   {
     "id": "overseer_managed_democracy_v110",
@@ -299,8 +306,8 @@
     "team": "minion",
     "ability": "Each night, learn how many Outsiders are alive. [+1 Outsider. Illuminate Front]",
     "flavor": "They bend the Voteless to their will, using them as expendable shields in a craven attempt to conserve their own numbers.",
-    "firstNight": 15,
-    "otherNight": 10
+    "firstNight": 40,
+    "otherNight": 35
   },
   {
     "id": "biletitan_managed_democracy_v110",
@@ -311,7 +318,7 @@
     "team": "demon",
     "ability": "Each night*, choose two players: one dies, and one is poisoned until dusk. [Terminid Front]",
     "flavor": "The ravenous Terminids are guided solely by an instinctive urge to reproduce, spread, and destroy Democracy. ",
-    "otherNight": 7
+    "otherNight": 32
   },
   {
     "id": "predator_managed_democracy_v110",
@@ -323,8 +330,8 @@
     "team": "demon",
     "ability": "Each night, choose a player. Learn who they choose tonight, if anyone. A previously chosen player dies when a different player is chosen. [Terminid Front]",
     "flavor": "A Gloom-enhanced strain of Terminids has been reported on this planet. SEAF patrols have been lured into ambushes, and picked off by unseen assailants.",
-    "firstNight": 13,
-    "otherNight": 8
+    "firstNight": 38,
+    "otherNight": 33
   },
   {
     "id": "fabricator_managed_democracy_v110",
@@ -335,7 +342,7 @@
     "team": "demon",
     "ability": "Each night*, choose a player: A chosen non-Minion dies. A chosen Minon may choose to become a different Minion of their current Front. [Automaton Front]",
     "flavor": "Is there some yet-concealed architect of the Automatons? Or did they emerge of their own accord, from the primordial ooze of machine logic and binary code? ",
-    "otherNight": 6
+    "otherNight": 31
   },
   {
     "id": "illusionist_managed_democracy_v110",
@@ -347,7 +354,7 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they become an alive Voteless. A chosen Minion will poison a Townsfolk neighbor if they are executed. [Illuminate Front]",
     "flavor": "What the Illuminate are planning, none can say. ",
-    "firstNight": 12,
-    "otherNight": 5
+    "firstNight": 37,
+    "otherNight": 30
   }
 ]
