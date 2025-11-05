@@ -4,7 +4,8 @@
     "name": "Managed Democracy",
     "author": "Keyordub",
     "almanac": "https://www.bloodstar.xyz/p/Keyordub/Managed_Democracy_v1-1-0/almanac.html",
-    "background": "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/background.jpg"
+    "background": "https://github.com/Keyordub/botc-scripts/blob/main/managedDemocracy/images/background.jpg?raw=true",
+    "hideTitle": true
   },
   {
     "id": "manageddemocracy_managed_democracy_v110",
