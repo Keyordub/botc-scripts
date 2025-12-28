@@ -3,9 +3,7 @@
     "id": "_meta",
     "name": "Managed Democracy",
     "author": "Keyordub",
-    "almanac": "https://www.bloodstar.xyz/p/Keyordub/Managed_Democracy_v1-1-0/almanac.html",
-    "hideTitle": true,
-    "background": "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/background.jpg"
+    "almanac": "https://www.bloodstar.xyz/p/Keyordub/Managed_Democracy_v1-1-0/almanac.html"
   },
   {
     "id": "manageddemocracy_managed_democracy_v110",
@@ -168,7 +166,7 @@
     "setup": true,
     "name": "Re-Educator",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: if the chosen player is a good Outsider, they become a not-in-play Townsfolk and learn they were chosen. If the chosen player is evil, you might die. [+1 Outsider]",
+    "ability": "Each night*, choose a player: A chosen good Outsider becomes a not-in-play Townsfolk at dawn. If the chosen player is evil, you might die. [+1 Outsider]",
     "flavor": "Don't worry, if you fail an objective, you will NOT be sent to a freedom camp. This is merely a dissident rumor.",
     "otherNight": 44
   },
