@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "Managed Democracy",
     "author": "Keyordub",
-    "almanac": "https://www.bloodstar.xyz/p/Keyordub/Managed_Democracy_v1-1-0/almanac.html"
+    "almanac": "https://www.bloodstar.xyz/p/Keyordub/Managed_Democracy/almanac.html"
   },
   {
     "id": "manageddemocracy_managed_democracy",
@@ -46,15 +46,11 @@
   {
     "id": "thealgorithm_managed_democracy",
     "image": "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/theAlgorithm.png",
-    "firstNightReminder": "WIP",
-    "otherNightReminder": "WIP",
-    "reminders": [
-      "Candidate"
-    ],
-    "setup": true,
+    "firstNightReminder": "Select a non-traveller character. :reminder:",
+    "otherNightReminder": "Select a non-traveller character. :reminder:",
     "name": "The Algorithm",
     "team": "traveller",
-    "ability": "Each night, choose a non-traveller character: The next day, before nominations for execution occur, a special nomination cycle will be held to choose a non-traveller player. A good player, if elected, becomes the chosen character at dusk.",
+    "ability": "Each night, choose a non-traveller character: the next day, before nominations for execution occur, a special nomination cycle will be held to choose a non-traveller player. A good player, if elected, becomes the chosen character at dusk.",
     "special": [
       {
         "name": "pointing",
@@ -63,8 +59,8 @@
       }
     ],
     "flavor": "I heard that some dissidents wanted us to select our own candidates instead of using the algorithm. Great idea. Everyone'll just become a political expert overnight. Treasonous morons. ",
-    "firstNight": 47,
-    "otherNight": 43
+    "firstNight": 48,
+    "otherNight": 46
   },
   {
     "id": "hellbomb_managed_democracy",
@@ -80,16 +76,16 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/beacon.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/beacon_flipped.png"
     ],
-    "firstNightReminder": "Choose a player :reminder:",
-    "otherNightReminder": "Choose a player :reminder:",
+    "firstNightReminder": "The Beacon chooses a player other than themselves. :reminder:",
+    "otherNightReminder": "If the Beacon nominated an evil player yesterday, wake the previously chosen player and show them the *YES* sign. The Beacon chooses a player other than themselves. :reminder:",
     "reminders": [
-      "Knows"
+      "Chosen"
     ],
     "name": "Beacon",
     "team": "townsfolk",
-    "ability": "Each night, choose a player. If you nominate an evil player during the next day, then the folloing night your previously chosen player learns that they are evil.",
-    "firstNight": 43,
-    "otherNight": 39
+    "ability": "Each night, choose a player (not yourself): If you nominate an evil player during the next day, then the chosen player is shown a YES the next night.",
+    "firstNight": 44,
+    "otherNight": 40
   },
   {
     "id": "democracyofficer_managed_democracy",
@@ -97,7 +93,7 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/democracyOfficer.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/democracyOfficer_flipped.png"
     ],
-    "otherNightReminder": "Give a finger signal.",
+    "otherNightReminder": "Give a finger signal. Clear reminder tokens. :reminder:",
     "reminders": [
       "Evil Voted",
       "Evil Voted"
@@ -106,7 +102,7 @@
     "team": "townsfolk",
     "ability": "Each night*, learn the number of players who, during the previous days nominations, were your alive neighbor, were evil, and voted.",
     "flavor": "Our citizens depend on you for their safety.",
-    "otherNight": 41
+    "otherNight": 44
   },
   {
     "id": "freeofthought_managed_democracy",
@@ -126,8 +122,8 @@
     "team": "townsfolk",
     "ability": "Each night, you learn how many characters attempted to change your role or alignment. Also, even when dead, you cannot be affected by madness and your character and alignment cannot be changed.",
     "flavor": "Nobody’s going to control your mind, soldier.",
-    "firstNight": 49,
-    "otherNight": 47
+    "firstNight": 50,
+    "otherNight": 50
   },
   {
     "id": "freedomyouth_managed_democracy",
@@ -135,7 +131,8 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/freedomYouth.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/freedomYouth_flipped.png"
     ],
-    "otherNightReminder": "On the Freedom Youth's third night :Reminder: have them choose a character.",
+    "firstNightReminder": "Mark the Freedom Youth with the *NIGHT 1* reminder token. :reminder:",
+    "otherNightReminder": "Increase the Freedom Youth's reminder token count. :reminder: If they now have the *NIGHT 3* reminder, they choose a new character to become. ",
     "reminders": [
       "Night 1",
       "Night 2",
@@ -145,6 +142,7 @@
     "team": "townsfolk",
     "ability": "On your third night, you may choose a new character to become. The Storyteller may prompt you to choose differently.",
     "flavor": "The children, in an inspiring act of patriotic gratitude, have all signed MOD Form 11 \"Intent to Enlist.\". Once grown, they will join the ranks of SEAF and carry the torch of heroic valor that saved their lives.",
+    "firstNight": 36,
     "otherNight": 27
   },
   {
@@ -157,7 +155,7 @@
     "name": "Genetecist",
     "team": "townsfolk",
     "ability": "You start knowing how many characters that can cause character change are in-play.",
-    "firstNight": 51
+    "firstNight": 42
   },
   {
     "id": "helldiver_managed_democracy",
@@ -165,14 +163,17 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/helldiver.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/helldiver_flipped.png"
     ],
+    "otherNightReminder": "If the Helldiver used their ability, kill either the Helldiver or their target if either voted less than the other.",
     "reminders": [
-      "Dead",
+      "No Ability",
+      "Foe",
       "Dead"
     ],
     "name": "Helldiver",
     "team": "townsfolk",
-    "ability": "Once per game, during the day before nominations, publicly choose a player. If one of you votes less than the other today, they die at night.",
-    "flavor": "Prove to yourself that you have the strength, and the courage, to be Free."
+    "ability": "Once per game, during the day, before nominations, publicly choose a player: if one of you votes less than the other today, they die at night.",
+    "flavor": "Prove to yourself that you have the strength, and the courage, to be Free.",
+    "otherNight": 29
   },
   {
     "id": "highcommand_managed_democracy",
@@ -180,10 +181,18 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/highCommand.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/highCommand_flipped.png"
     ],
+    "firstNightReminder": "The High Command chooses a player. :reminder:",
+    "otherNightReminder": "The High Command chooses a player. :reminder:",
+    "reminders": [
+      "Major Order",
+      "Doesn't Wake Tonight"
+    ],
     "name": "High Command",
     "team": "townsfolk",
-    "ability": "Each night, choose a player: if the chosen player is executed and all good players voted to execute them, then the Demon doesn't wake tonight.",
-    "flavor": "High Command offers this guidance in order to conserve Helldivers' critical decision-making effort, for use on the battlefield itself."
+    "ability": "Each night, choose a player: if during the next day, the chosen player is executed and all alive good players voted to execute them, then the Demon doesn't wake tonight.",
+    "flavor": "High Command offers this guidance in order to conserve Helldivers' critical decision-making effort, for use on the battlefield itself.",
+    "firstNight": 47,
+    "otherNight": 43
   },
   {
     "id": "interrogator_managed_democracy",
@@ -192,17 +201,17 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/interrogator_flipped.png"
     ],
     "firstNightReminder": "The Interrogator might use their ability. :reminder:",
-    "otherNightReminder": "The Interrogator might use their ability. :reminder: If they used their ability, show the Interrogator the Character token of the Target.",
+    "otherNightReminder": "The Interrogator might use their ability. :reminder: If they used their ability successfully, show the Interrogator the Character token of the Target.",
     "reminders": [
       "Target",
       "Used Ability"
     ],
     "name": "Interrogator",
     "team": "townsfolk",
-    "ability": "Once per game, at night, choose a player: if you are “mad” that they are evil during the next day, then learn their character that night. Otherwise, learn nothing.",
+    "ability": "Once per game, at night, choose a player: if you are “mad” that they are evil and another player nominates them, learn the chosen player's character that night. If you are \"mad\" that you are the Interrogator, you lose this ability.",
     "flavor": "The Ministry of Truth is responsible for keeping all citizens well-informed and mentally equipped to withstand our enemies' vile propaganda.",
     "firstNight": 45,
-    "otherNight": 40
+    "otherNight": 41
   },
   {
     "id": "martyr_managed_democracy",
@@ -210,17 +219,15 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/martyr.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/martyr_flipped.png"
     ],
-    "firstNightReminder": "The Martyr chooses a different player than last night. :reminder: If that player would die, wake the Martyr and show them the \"This Character chose you\" and their Martyr token.",
-    "otherNightReminder": "The Martyr chooses a different player than last night. :reminder: If that player would die, wake the Martyr and show them the \"This Character chose you\" and their Martyr token.",
+    "otherNightReminder": "The Martyr chooses a player. :reminder: If that player would die, the Martyr dies instead.",
     "reminders": [
       "Priority Citizen",
       "Dead"
     ],
     "name": "Martyr",
     "team": "townsfolk",
-    "ability": "Each night, choose a player. If they would die tonight, then you die instead.",
+    "ability": "Each night*, choose a player. If they would die tonight, then you die instead.",
     "flavor": "Super Earth will never forget the Helldivers we lost today, nor the incremental gains their sacrifice achieved. ",
-    "firstNight": 36,
     "otherNight": 28
   },
   {
@@ -229,16 +236,17 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/re-Educator.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/re-Educator_flipped.png"
     ],
-    "otherNightReminder": "The Re-Educator chooses a player. Put the Re-Educator to sleep. If the Re-Educator chose a Good Outsider, then wake them. Show the *THIS CHARACTER SELECTED YOU* card and the Re-Educator token. Show the *YOU ARE* card and their new Townsfolk token. If the Re-Educator chose an evil player, the Re-Educator might die. :reminder:",
+    "otherNightReminder": "The Re-Educator chooses a player. Put the Re-Educator to sleep. If the Re-Educator chose a Good Outsider, then wake them at dawn. Show the *YOU ARE* card and their new Townsfolk token. If the Re-Educator chose an evil player, the Re-Educator might die. :reminder:",
     "reminders": [
-      "Dead"
+      "Dead",
+      "Changed"
     ],
     "setup": true,
     "name": "Re-Educator",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: A chosen good Outsider becomes a not-in-play Townsfolk at dawn. If the chosen player is evil, you might die. [+1 Outsider]",
+    "ability": "Each night*, choose a player: a chosen good Outsider becomes a not-in-play Townsfolk at dawn. If the chosen player is evil, you might die. [+1 Outsider]",
     "flavor": "Don't worry, if you fail an objective, you will NOT be sent to a freedom camp. This is merely a dissident rumor.",
-    "otherNight": 44
+    "otherNight": 45
   },
   {
     "id": "researcher_managed_democracy",
@@ -258,8 +266,8 @@
     "team": "townsfolk",
     "ability": "Each night, you learn how many players changed characters this night.",
     "flavor": "I've heard there's some kind of secret superweapon being worked on by our top scientists. Not the ones who made the Termicide, of course. They're all being interrogated for treason. Our other top scientists. ",
-    "firstNight": 50,
-    "otherNight": 48
+    "firstNight": 51,
+    "otherNight": 51
   },
   {
     "id": "shipmaster_managed_democracy",
@@ -271,7 +279,7 @@
     "name": "Ship Master",
     "team": "townsfolk",
     "ability": "You start knowing a not-in-play Front. (Or that all Fronts are in play).",
-    "firstNight": 44
+    "firstNight": 43
   },
   {
     "id": "truthenforcer_managed_democracy",
@@ -286,7 +294,7 @@
     ],
     "name": "Truth Enforcer",
     "team": "townsfolk",
-    "ability": "Each night, you may choose a player, and they learn they have been chosen. If a good player is chosen, then the next day they are “mad” that they are their character, or they might be executed.",
+    "ability": "Each night, you may choose a player: they learn they have been chosen. A chosen good player is “mad” that they are their character the next day, or they might be executed.",
     "flavor": "If there's one thing we love here on Super Earth, it's the truth. We’ve even got a whole Ministry dedicated to the creation, fine-tuning, and wide distribution of it. ",
     "firstNight": 46,
     "otherNight": 42
@@ -297,17 +305,17 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/cyborg.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/cyborg_flipped.png"
     ],
-    "firstNightReminder": "If the Demon chose either of the Cyborg's neighors tonight, then wake the Cyborg and show them the *YOU ARE* card, and the Evil handsign. If the Cyborg dies, wake the Cyborg and show the *YOU ARE* card, and the Good handsign.",
-    "otherNightReminder": "If the Demon chose either of the Cyborg's neighors tonight, then wake the Cyborg and show them the *YOU ARE* card, and the Evil handsign. If the Cyborg dies, wake the Cyborg and show the *YOU ARE* card, and the Good handsign.",
+    "firstNightReminder": "If the Demon chose either of the Cyborg's neighors tonight, then wake the Cyborg and show them the *YOU ARE* card, and the *EVIL* sign. If the Cyborg dies or would otherwise lose this ability, wake the Cyborg and show the *YOU ARE* card, and the *GOOD* handsign.",
+    "otherNightReminder": "If the Demon chose either of the Cyborg's neighors tonight, then wake the Cyborg and show them the *YOU ARE* card, and the *EVIL* sign. If the Cyborg dies or would otherwise lose this ability, wake the Cyborg and show the *YOU ARE* card, and the *GOOD* handsign.",
     "reminders": [
       "Freed"
     ],
     "name": "Cyborg",
     "team": "outsider",
-    "ability": "When your neighbor is chosen by a Demon, you join the Demon's team until you die. You learn when this happens.",
+    "ability": "When your neighbor is chosen by a Demon, you join the Demon's team until you die or otherwise lose this ability. You learn when this happens.",
     "flavor": "In the First Galactic War, we cast the Illuminate from our galaxy, and secured the half-human Cyborgs safely in the mines of Cyberstan.",
-    "firstNight": 48,
-    "otherNight": 46
+    "firstNight": 49,
+    "otherNight": 48
   },
   {
     "id": "dissident_managed_democracy",
@@ -317,7 +325,7 @@
     ],
     "name": "Dissident",
     "team": "outsider",
-    "ability": "You might register as evil while voting. If a good player publicly speculates about you being a Dissident, you might be executed.",
+    "ability": "You might register as evil during votes. If a good player publicly speculates about you being a Dissident, you might be executed.",
     "flavor": "I earned a few more Citizenship points the other day. All it took was reportin' some unpatriotic talk I heard in the barracks. Now there's one less dissident, and I get one more doctor's visit every year."
   },
   {
@@ -326,16 +334,17 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/voteless.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/voteless_flipped.png"
     ],
-    "otherNightReminder": "If there are three or more Voteless alive, mark an arbitrary number of them for death. :reminder:",
+    "otherNightReminder": "If the Voteless player has the *VOTED TOO MUCH* reminder, they might die. If there are three or less non-Voteless alive, all Voteless die. Remove all *VOTED* and *VOTED TOO MUCH* reminders.",
     "reminders": [
       "Voted",
+      "Voted Too Much",
       "Dead"
     ],
     "name": "Voteless",
     "team": "outsider",
     "ability": "You may only vote once per day. If you vote more than once, you might die at night. If only three or less non-Voteless characters remain alive, you die at dawn.",
     "flavor": "They have been stripped of something even deeper than their humanity: their capacity to participate in the Democratic process.",
-    "otherNight": 45
+    "otherNight": 47
   },
   {
     "id": "collateral_managed_democracy",
@@ -343,13 +352,16 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/collateral.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/collateral_flipped.png"
     ],
+    "otherNightReminder": "If either of the Collatoral's Alive neighbors were executed, the Collateral might die.",
     "reminders": [
+      "In Danger",
       "Dead"
     ],
     "name": "Collateral",
     "team": "outsider",
     "ability": "When either of your Alive neighbors are executed, you might die during the night.",
-    "flavor": "Their lives were in our hands. "
+    "flavor": "Their lives were in our hands. ",
+    "otherNight": 49
   },
   {
     "id": "bilespewer_managed_democracy",
@@ -358,8 +370,9 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/bileSpewer_flipped.png"
     ],
     "firstNightReminder": "The Bile Spewer chooses a player. :reminder:",
-    "otherNightReminder": "The Bile Spewer chooses a player. :reminder: If this is the second time a player is picked, wake them and show the *THIS CHARACTER PICKED YOU* card and the Bile Spewer token.",
+    "otherNightReminder": "The Bile Spewer chooses a player. :reminder: If this is the second time a player is picked, wake them and show the *THIS CHARACTER PICKED YOU* card and the Bile Spewer token. If this is the third time a player is picked, they die.",
     "reminders": [
+      "Poisoned",
       "Bile",
       "Bile",
       "Bile",
@@ -374,8 +387,8 @@
     "team": "minion",
     "ability": "Each night, choose a player: The first time, they are poisoned until dusk. The second time, they are poisoned until dusk and learn they were chosen. The third time, they die. A player’s count is reset when they die. [Terminid Front]",
     "flavor": "The Bile Spewer’s thorax is bloated with several metric tons of corrosive acid, which it vomits in revulsion upon encountering Democracy.",
-    "firstNight": 39,
-    "otherNight": 33
+    "firstNight": 38,
+    "otherNight": 34
   },
   {
     "id": "gloom_managed_democracy",
@@ -390,10 +403,10 @@
     ],
     "name": "Gloom",
     "team": "minion",
-    "ability": "Each night, choose a player: They might register as evil & as a Minion or Demon, until dusk. [Terminid Front]",
+    "ability": "Each night, choose a player: They register as evil & as a Minion or Demon, until dusk. [Terminid Front]",
     "flavor": "The Gloom has altered the very air of the worlds caught in its haze. Once-familiar worlds are now foreign lands, nesting grounds for skittering new monstrosities. ",
-    "firstNight": 42,
-    "otherNight": 36
+    "firstNight": 41,
+    "otherNight": 37
   },
   {
     "id": "detector_managed_democracy",
@@ -406,7 +419,7 @@
     "team": "minion",
     "ability": "Each night*, learn a player who the Storyteller believes you should watch carefully. [Automaton Front]",
     "flavor": "What Automatons we have faced thus far were but a component of their grand apparatus.",
-    "otherNight": 37
+    "otherNight": 38
   },
   {
     "id": "jammer_managed_democracy",
@@ -421,10 +434,10 @@
     ],
     "name": "Jammer",
     "team": "minion",
-    "ability": "Each night, choose a player: If they nominate the next day, it fails even if it receives enough votes. All players learn when a vote fails due to this ability. This ability only works when there are 5 or more players alive. [Automaton Front]",
+    "ability": "Each night, choose a player: if they nominate the next day, it fails even if it receives enough votes. All players learn when a vote fails due to this ability. [Automaton Front]",
     "flavor": "The Automatons have proved a greater threat to Democracy than anticipated.",
-    "firstNight": 41,
-    "otherNight": 35
+    "firstNight": 40,
+    "otherNight": 36
   },
   {
     "id": "fleshmob_managed_democracy",
@@ -432,7 +445,7 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/fleshmob.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/fleshmob_flipped.png"
     ],
-    "otherNightReminder": "If a Good Outsider was executed yesterday, resurrect the Fleshmob.",
+    "otherNightReminder": "If a good Outsider was executed yesterday, wake the Fleshmob. Show the *USE YOUR ABILITY?* card to the Voteless. Ressurrect the Voteless if they choose to do so.",
     "reminders": [
       "Alive"
     ],
@@ -440,7 +453,7 @@
     "team": "minion",
     "ability": "You might register as an Outsider and a Voteless. If you are dead and town executes a good Outsider, you can choose to ressurect during that night. [Illuminate Front]",
     "flavor": "It seems the Illuminate wish to transform our citizens' minds and bodies. But are these monstrosities the end of their gruesome experimentation... or merely the beginning? ",
-    "otherNight": 38
+    "otherNight": 39
   },
   {
     "id": "overseer_managed_democracy",
@@ -448,15 +461,15 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/overseer.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/overseer_flipped.png"
     ],
-    "firstNightReminder": "Give a finger signal. Wake the Demon and show the *THIS CHARACTER CHOSE YOU* card, the Overseer token, and a finger signal.",
-    "otherNightReminder": "Give a finger signal. Wake the Demon and show the *THIS CHARACTER CHOSE YOU* card, the Overseer token, and a finger signal.",
+    "firstNightReminder": "Give a finger signal.",
+    "otherNightReminder": "Give a finger signal.",
     "setup": true,
     "name": "Overseer",
     "team": "minion",
     "ability": "Each night, learn how many Outsiders are alive. [+1 Outsider. Illuminate Front]",
     "flavor": "They bend the Voteless to their will, using them as expendable shields in a craven attempt to conserve their own numbers.",
-    "firstNight": 40,
-    "otherNight": 34
+    "firstNight": 39,
+    "otherNight": 35
   },
   {
     "id": "biletitan_managed_democracy",
@@ -464,17 +477,16 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/bileTitan.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/bileTitan_flipped.png"
     ],
-    "otherNightReminder": "The Bile Titan chooses a player. :reminder: :reminder: :reminder:",
+    "otherNightReminder": "The Bile Titan chooses two players. One is poisoned until dusk. :reminder: One dies.",
     "reminders": [
       "Dead",
-      "Poisoned",
       "Poisoned"
     ],
     "name": "Bile Titan",
     "team": "demon",
     "ability": "Each night*, choose two players: one dies, and one is poisoned until dusk. [Terminid Front]",
     "flavor": "The ravenous Terminids are guided solely by an instinctive urge to reproduce, spread, and destroy Democracy. ",
-    "otherNight": 31
+    "otherNight": 32
   },
   {
     "id": "predator_managed_democracy",
@@ -482,18 +494,18 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/predator.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/predator_flipped.png"
     ],
-    "firstNightReminder": "Show the Predator the *YOU ARE* card, the Predator token, and their Townsfolk ability token.",
-    "otherNightReminder": "The Predator chooses a player. :reminder:",
+    "firstNightReminder": "The Predator chooses a player. :reminder:",
+    "otherNightReminder": "The Predator chooses a player. :reminder: If this is a different player than was previously chosen, the previously chosen player dies.",
     "reminders": [
-      "Stalked",
+      "Followed",
       "Dead"
     ],
     "name": "Predator",
     "team": "demon",
-    "ability": "Each night, choose a player. Learn who they choose tonight, if anyone. A previously chosen player dies when a different player is chosen. [Terminid Front]",
+    "ability": "Each night, choose a player. Learn who they choose at dawn, if anyone. A previously chosen player dies when a different player is chosen. [Terminid Front]",
     "flavor": "A Gloom-enhanced strain of Terminids has been reported on this planet. SEAF patrols have been lured into ambushes, and picked off by unseen assailants.",
-    "firstNight": 38,
-    "otherNight": 32
+    "firstNight": 37,
+    "otherNight": 33
   },
   {
     "id": "fabricator_managed_democracy",
@@ -501,19 +513,15 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/fabricator.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/fabricator_flipped.png"
     ],
-    "otherNightReminder": "The Fabricator chooses a player. :reminder: Wake the Minion, show them the *THIS CHARACTER SELECTED YOU* card and the Fabricator token. Show them the *USE YOUR ABILITY?* card. They may choose a different Minion of the same Front.",
+    "otherNightReminder": "The Fabricator chooses a player. :reminder: If the chosen player is an Evil Minion, show them the *THIS CHARACTER SELECTED YOU* card and the Fabricator token. Show them the *USE YOUR ABILITY?* card. They may choose a different Minion of the same Front.",
     "reminders": [
-      "Dead",
-      "Used Swap",
-      "Used Swap",
-      "Used Swap",
-      "Used Swap"
+      "Dead"
     ],
     "name": "Fabricator",
     "team": "demon",
-    "ability": "Each night*, choose a player: A chosen non-Minion dies. A chosen Minon may choose to become a different Minion of their current Front. [Automaton Front]",
+    "ability": "Each night*, choose a player: they die, unless they are an evil Minon. A chosen evil Minion may choose to become a different Minion of their current Front. [Automaton Front]",
     "flavor": "Is there some yet-concealed architect of the Automatons? Or did they emerge of their own accord, from the primordial ooze of machine logic and binary code? ",
-    "otherNight": 30
+    "otherNight": 31
   },
   {
     "id": "illusionist_managed_democracy",
@@ -521,9 +529,15 @@
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/illusionist.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/illusionist_flipped.png"
     ],
-    "firstNightReminder": "One Townsfolk player is poisoned. :reminder:",
-    "otherNightReminder": "The Illusionist chooses a player. Put the Illusionist to sleep. Wake the chosen player. Ressurect them. :reminder: Show them the *YOU ARE* card, and the Voteless token. ",
+    "otherNightReminder": "The Illusionist chooses a player. Put the Illusionist to sleep. Wake the chosen player. Ressurect them. :reminder: Show them the *YOU ARE* card, and the Voteless token. If they were a minion, mark them as *VOLATILE* :reminder:.",
     "reminders": [
+      "Volatile",
+      "Volatile",
+      "Volatile",
+      "Volatile",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
       "Poisoned",
       "Alive"
     ],
@@ -531,7 +545,6 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they become an alive Voteless. A chosen Minion will poison a Townsfolk neighbor if they are executed. [Illuminate Front]",
     "flavor": "What the Illuminate are planning, none can say. ",
-    "firstNight": 37,
-    "otherNight": 29
+    "otherNight": 30
   }
 ]
