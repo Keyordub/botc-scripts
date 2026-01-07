@@ -6,7 +6,7 @@
     "almanac": "https://www.bloodstar.xyz/p/Keyordub/Managed_Democracy_v1-1-0/almanac.html"
   },
   {
-    "id": "manageddemocracy_managed_democracy_v110",
+    "id": "manageddemocracy_managed_democracy",
     "image": "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/managedDemocracy_flipped.png",
     "reminders": [
       "Nominated",
@@ -25,7 +25,7 @@
     "flavor": "Managed Democracy offers true Freedom: Freedom from the burden of choice. "
   },
   {
-    "id": "warfront_managed_democracy_v110",
+    "id": "warfront_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/warfront.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/warfront_flipped.png"
@@ -36,7 +36,7 @@
     "flavor": "A three-front conflict, just like the First Galactic War. When will these aliens learn? "
   },
   {
-    "id": "friendlyfire_managed_democracy_v110",
+    "id": "friendlyfire_managed_democracy",
     "image": "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/friendlyFire_flipped.png",
     "name": "Friendly Fire",
     "team": "loric",
@@ -44,7 +44,7 @@
     "flavor": "Remember, kids: Friendly Fire isn't."
   },
   {
-    "id": "thealgorithm_managed_democracy_v110",
+    "id": "thealgorithm_managed_democracy",
     "image": "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/theAlgorithm.png",
     "firstNightReminder": "WIP",
     "otherNightReminder": "WIP",
@@ -67,7 +67,7 @@
     "otherNight": 43
   },
   {
-    "id": "hellbomb_managed_democracy_v110",
+    "id": "hellbomb_managed_democracy",
     "image": "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/hellbomb.png",
     "name": "Hellbomb",
     "team": "traveller",
@@ -75,7 +75,7 @@
     "flavor": "Down Up Left Down Up Right Down Up"
   },
   {
-    "id": "beacon_managed_democracy_v110",
+    "id": "beacon_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/beacon.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/beacon_flipped.png"
@@ -92,7 +92,7 @@
     "otherNight": 39
   },
   {
-    "id": "democracyofficer_managed_democracy_v110",
+    "id": "democracyofficer_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/democracyOfficer.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/democracyOfficer_flipped.png"
@@ -109,7 +109,7 @@
     "otherNight": 41
   },
   {
-    "id": "freeofthought_managed_democracy_v110",
+    "id": "freeofthought_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/free-of-Thought.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/free-of-Thought_flipped.png"
@@ -130,7 +130,7 @@
     "otherNight": 47
   },
   {
-    "id": "freedomyouth_managed_democracy_v110",
+    "id": "freedomyouth_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/freedomYouth.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/freedomYouth_flipped.png"
@@ -148,7 +148,7 @@
     "otherNight": 27
   },
   {
-    "id": "genetecist_managed_democracy_v110",
+    "id": "genetecist_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/genetecist.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/genetecist_flipped.png"
@@ -160,7 +160,7 @@
     "firstNight": 51
   },
   {
-    "id": "helldiver_managed_democracy_v110",
+    "id": "helldiver_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/helldiver.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/helldiver_flipped.png"
@@ -175,7 +175,7 @@
     "flavor": "Prove to yourself that you have the strength, and the courage, to be Free."
   },
   {
-    "id": "highcommand_managed_democracy_v110",
+    "id": "highcommand_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/highCommand.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/highCommand_flipped.png"
@@ -186,7 +186,7 @@
     "flavor": "High Command offers this guidance in order to conserve Helldivers' critical decision-making effort, for use on the battlefield itself."
   },
   {
-    "id": "interrogator_managed_democracy_v110",
+    "id": "interrogator_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/interrogator.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/interrogator_flipped.png"
@@ -205,7 +205,7 @@
     "otherNight": 40
   },
   {
-    "id": "martyr_managed_democracy_v110",
+    "id": "martyr_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/martyr.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/martyr_flipped.png"
@@ -224,7 +224,7 @@
     "otherNight": 28
   },
   {
-    "id": "reeducator_managed_democracy_v110",
+    "id": "reeducator_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/re-Educator.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/re-Educator_flipped.png"
@@ -241,7 +241,7 @@
     "otherNight": 44
   },
   {
-    "id": "researcher_managed_democracy_v110",
+    "id": "researcher_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/researcher.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/researcher_flipped.png"
@@ -262,7 +262,7 @@
     "otherNight": 48
   },
   {
-    "id": "shipmaster_managed_democracy_v110",
+    "id": "shipmaster_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/shipMaster.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/shipMaster_flipped.png"
@@ -274,7 +274,7 @@
     "firstNight": 44
   },
   {
-    "id": "truthenforcer_managed_democracy_v110",
+    "id": "truthenforcer_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/truthEnforcer.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/truthEnforcer_flipped.png"
@@ -292,7 +292,7 @@
     "otherNight": 42
   },
   {
-    "id": "cyborg_managed_democracy_v110",
+    "id": "cyborg_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/cyborg.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/cyborg_flipped.png"
@@ -310,7 +310,7 @@
     "otherNight": 46
   },
   {
-    "id": "dissident_managed_democracy_v110",
+    "id": "dissident_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/dissident.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/dissident_flipped.png"
@@ -321,7 +321,7 @@
     "flavor": "I earned a few more Citizenship points the other day. All it took was reportin' some unpatriotic talk I heard in the barracks. Now there's one less dissident, and I get one more doctor's visit every year."
   },
   {
-    "id": "voteless_managed_democracy_v110",
+    "id": "voteless_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/voteless.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/voteless_flipped.png"
@@ -338,7 +338,7 @@
     "otherNight": 45
   },
   {
-    "id": "collateral_managed_democracy_v110",
+    "id": "collateral_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/collateral.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/collateral_flipped.png"
@@ -352,7 +352,7 @@
     "flavor": "Their lives were in our hands. "
   },
   {
-    "id": "bilespewer_managed_democracy_v110",
+    "id": "bilespewer_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/bileSpewer.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/bileSpewer_flipped.png"
@@ -378,7 +378,7 @@
     "otherNight": 33
   },
   {
-    "id": "gloom_managed_democracy_v110",
+    "id": "gloom_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/gloom.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/gloom_flipped.png"
@@ -396,7 +396,7 @@
     "otherNight": 36
   },
   {
-    "id": "detector_managed_democracy_v110",
+    "id": "detector_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/detector.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/detector_flipped.png"
@@ -409,7 +409,7 @@
     "otherNight": 37
   },
   {
-    "id": "jammer_managed_democracy_v110",
+    "id": "jammer_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/jammer.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/jammer_flipped.png"
@@ -427,7 +427,7 @@
     "otherNight": 35
   },
   {
-    "id": "fleshmob_managed_democracy_v110",
+    "id": "fleshmob_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/fleshmob.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/fleshmob_flipped.png"
@@ -443,7 +443,7 @@
     "otherNight": 38
   },
   {
-    "id": "overseer_managed_democracy_v110",
+    "id": "overseer_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/overseer.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/overseer_flipped.png"
@@ -459,7 +459,7 @@
     "otherNight": 34
   },
   {
-    "id": "biletitan_managed_democracy_v110",
+    "id": "biletitan_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/bileTitan.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/bileTitan_flipped.png"
@@ -477,7 +477,7 @@
     "otherNight": 31
   },
   {
-    "id": "predator_managed_democracy_v110",
+    "id": "predator_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/predator.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/predator_flipped.png"
@@ -496,7 +496,7 @@
     "otherNight": 32
   },
   {
-    "id": "fabricator_managed_democracy_v110",
+    "id": "fabricator_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/fabricator.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/fabricator_flipped.png"
@@ -516,7 +516,7 @@
     "otherNight": 30
   },
   {
-    "id": "illusionist_managed_democracy_v110",
+    "id": "illusionist_managed_democracy",
     "image": [
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/illusionist.png",
       "https://raw.githubusercontent.com/Keyordub/botc-scripts/refs/heads/main/managedDemocracy/images/illusionist_flipped.png"
